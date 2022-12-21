@@ -120,17 +120,17 @@
     :count_tests: 12
     :count_tests_passed: 6
     :tests:
-      returnBooleanTest1: 0
+      returnBooleanTest1: 1
       returnBooleanTest2: 1
       returnNotTest1: 1
       returnNotTest2: 0
-      returnAndTest1: 0
-      returnAndTest2: 1
-      returnAndTest3: 1
-      returnAndTest4: 1
+      returnAndTest1: 1
+      returnAndTest2: 0
+      returnAndTest3: 0
+      returnAndTest4: 0
       returnOrTest1: 0
       returnOrTest2: 0
-      returnOrTest3: 0
+      returnOrTest3: 1
       returnOrTest4: 1
   Add:
     :Week: 1

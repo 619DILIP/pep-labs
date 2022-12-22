@@ -35,9 +35,11 @@ public class WhileLoop {
     public int whileExample(int end){
         int sum = 0;
         int i = 0;
-
+end = 5;
 //        code here
-
+while(i<= end){
+    sum += i;
+}
         return sum;
     }
 }

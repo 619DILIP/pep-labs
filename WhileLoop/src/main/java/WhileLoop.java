@@ -39,7 +39,10 @@ end = 5;
 //        code here
 while(i<= end){
     sum += i;
+    i++;
 }
-        return sum;
+
+System.out.println(sum);    
+return sum;
     }
 }

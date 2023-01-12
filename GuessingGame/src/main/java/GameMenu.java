@@ -28,5 +28,6 @@ public class GameMenu {
                 System.out.println("Incorrect!");
             }
         }
-    }
+    userInputScanner.close();
+}
 }

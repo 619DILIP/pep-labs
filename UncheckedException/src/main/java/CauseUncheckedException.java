@@ -1,6 +1,7 @@
 
 public class CauseUncheckedException {
     /**
+     * 
      * This method must throw an unchecked exception.
      * unchecked means that you do not need to wrap the method in a try/catch or a throws declaration.
      * Unchecked exceptions may include situations like arithmetic errors like dividing by zero,
@@ -13,7 +14,9 @@ public class CauseUncheckedException {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(){
-
+    public static void UncheckedException(){
+  int[] Arr = new int[] {1, 2, 3, 4, 5};
+  for (int i = 0; i <= Arr.length; i++)
+  System.out.println("Element at index " + i +" : "+ Arr[i]);
     }
 }

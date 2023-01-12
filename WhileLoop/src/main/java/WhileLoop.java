@@ -1,5 +1,6 @@
-
+import java.util.Scanner;
 public class WhileLoop {
+    Scanner sc = new Scanner(System.in);
     /**
      * A while loop uses a conditional statement (within parentheses) and runs the code {within curly braces}
      * as long as the conditional is true.
@@ -34,7 +35,7 @@ public class WhileLoop {
      **/
     public int whileExample(int end){
         int sum = 0;
-        int i = 0;
+        int i = sc.nextInt();
 end = 5;
 //        code here
 while(i<= end){

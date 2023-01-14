@@ -13,6 +13,8 @@ import java.util.List;
  * https://www.w3schools.com/java/java_arraylist.asp
  */
 public class ListExercise {
+    
+    List<Integer> Sample = new ArrayList<>();
     /**
      * Instantiate and return a List of Integers.
      *
@@ -29,8 +31,8 @@ public class ListExercise {
      *
      * @return a List<Integer> object.
      */
-    public List<Integer> createList(){
-        return null;
+    public List<Integer> createList(ArrayList<Integer> Sample){
+        return Sample;
     }
 
     /**

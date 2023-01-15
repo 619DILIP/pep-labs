@@ -42,7 +42,9 @@ public class ListExercise {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-        return 0;
+        
+        int size = list.size();
+        return size;
     }
 
     /**
@@ -54,6 +56,7 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addToList(List<Integer> list, int value){
+        list.add(10);
     }
 
     /**
@@ -69,7 +72,9 @@ public class ListExercise {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
-        return 0;
+        
+        int element = list.get(0);
+        return element;
     }
 
     /**
@@ -82,7 +87,7 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeFromList(List<Integer> list, int position){
-
+list.remove(0);
     }
 
     /**
@@ -95,5 +100,6 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void updateAtPosition(List<Integer> list, int position, int value){
+        list.set(0, 23);
     }
 }

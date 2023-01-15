@@ -1,1 +1,1 @@
-INSERT INTO song(T)
+INSERT INTO song(title,artist)VALUES('On My Way!','Alan Walker');

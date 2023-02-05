@@ -40,12 +40,12 @@
     :git_user_name: Dilip Babu
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 1
+  :count_labs_passed: 0
   :count_tests_total: 360
-  :count_tests_passed: 1
+  :count_tests_passed: 0
 :progress_test:
   :count_tests_total: 360
-  :count_tests_passed: 1
+  :count_tests_passed: 0
   Start:
     :Week: 1
     :Order: 1
@@ -663,9 +663,9 @@
     :Order: 7
     :Type: lab
     :count_tests: 1
-    :count_tests_passed: 1
+    :count_tests_passed: 0
     :tests:
-      problem1Test: 1
+      problem1Test: 0
   PathParameters:
     :Week: 5
     :Order: 8

@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class Pyramid {
     /**
@@ -27,6 +28,18 @@ public class Pyramid {
      * @return a string representation of the pyramid.
      */
     public String returnPyramid(int n){
+        int i, j;
+    
+        for(i=0; i<n; i++)
+        {
+ 
+            for(j=0; j<=i; j++)
+            {
+                System.out.print("* \n");
+            }
+
+            System.out.println();
+        }
         return "";
     }
 }
